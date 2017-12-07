@@ -1,10 +1,4 @@
-#include <ngx_queue.h>
-
-typedef struct {
-	u_char* str;
-	ngx_queue_t qEle;
-	int num;
-} TestNode;
+#include <TestNode.h>
 
 ngx_int_t compTestNode(const ngx_queue_t* a, const ngx_queue_t* b){
 	TestNode* aNode = ngx_queue_data(a, TestNode, qEle);
