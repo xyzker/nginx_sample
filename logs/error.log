@@ -1,3 +1,317 @@
-2017/11/30 19:02:16 [emerg] 7036#0: the maximum number of files supported by select() is 64
-2017/11/30 19:09:17 [error] 3504#0: *1 "D:/C_project/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+177970506 [main] nginx 3848 fork: child -1 - forked process 7804 died unexpectedly, retry 0, exit code 0xC0000005, errno 11
+#0: *1 "D:/C_project/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
 2017/11/30 19:09:17 [error] 3504#0: *1 open() "D:/C_project/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/12/01 16:45:41 [emerg] 7524#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:45:41 [emerg] 7524#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:45:41 [emerg] 7524#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:45:41 [emerg] 7524#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:45:41 [emerg] 7524#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:45:41 [emerg] 7524#0: still could not bind()
+2017/12/01 16:52:09 [emerg] 7360#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:52:09 [emerg] 7360#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:52:09 [emerg] 7360#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:52:09 [emerg] 7360#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:52:09 [emerg] 7360#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 16:52:09 [emerg] 7360#0: still could not bind()
+2017/12/01 16:52:23 [error] 3504#0: *4 "D:/C_project/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/12/01 16:53:26 [notice] 6704#0: signal process started
+2017/12/01 16:53:26 [emerg] 3848#0: unknown directive "mytest" in D:/C_project/nginx/conf/nginx.conf:44
+2017/12/01 16:53:32 [error] 3504#0: *9 "D:/C_project/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/12/01 16:53:33 [error] 3504#0: *9 "D:/C_project/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/12/01 16:53:35 [error] 3504#0: *9 "D:/C_project/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/12/01 16:57:24 [emerg] 5252#0: unexpected "}" in D:/C_project/nginx/conf/nginx.conf:48
+2017/12/01 16:57:33 [emerg] 4860#0: unknown directive "Makefile" in D:/C_project/nginx/conf/nginx.conf:47
+2017/12/01 16:57:57 [emerg] 1724#0: unknown directive "./Makefile" in D:/C_project/nginx/conf/nginx.conf:47
+2017/12/01 16:58:10 [notice] 5776#0: signal process started
+2017/12/01 16:58:10 [emerg] 3848#0: unknown directive "mytest" in D:/C_project/nginx/conf/nginx.conf:44
+2017/12/01 16:58:16 [error] 3504#0: *13 "D:/C_project/nginx/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/12/01 17:07:01 [notice] 7768#0: signal process started
+2017/12/01 17:07:01 [emerg] 3848#0: unknown directive "mytest" in D:/C_project/nginx/conf/nginx.conf:44
+2017/12/01 17:07:08 [error] 3504#0: *15 open() "D:/C_project/nginx/html/xx" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx HTTP/1.1", host: "localhost"
+2017/12/01 17:07:11 [error] 3504#0: *15 open() "D:/C_project/nginx/html/xx" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx HTTP/1.1", host: "localhost"
+2017/12/01 17:07:38 [notice] 1460#0: signal process started
+2017/12/01 17:07:38 [emerg] 3848#0: unknown directive "mytest" in D:/C_project/nginx/conf/nginx.conf:44
+2017/12/01 17:07:42 [error] 3504#0: *15 open() "D:/C_project/nginx/html/xx" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx HTTP/1.1", host: "localhost"
+2017/12/01 17:07:43 [error] 3504#0: *15 open() "D:/C_project/nginx/html/xx" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx HTTP/1.1", host: "localhost"
+2017/12/01 17:07:43 [error] 3504#0: *15 open() "D:/C_project/nginx/html/xx" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx HTTP/1.1", host: "localhost"
+2017/12/01 17:11:42 [emerg] 7620#0: unexpected "}" in D:/C_project/nginx/conf/nginx.conf:46
+2017/12/01 17:12:00 [emerg] 4180#0: unknown directive "/cygdrive/d/C_project/nginx/Makefile" in D:/C_project/nginx/conf/nginx.conf:45
+2017/12/01 17:14:07 [notice] 4764#0: signal process started
+2017/12/01 17:14:07 [alert] 3848#0: fork() failed while spawning "worker process" (11: Resource temporarily unavailable)
+2017/12/01 17:14:08 [alert] 3504#0: recvmsg() returned invalid ancillary data level 9 or type 1
+2017/12/01 17:16:31 [notice] 8100#0: signal process started
+2017/12/01 17:16:31 [alert] 3848#0: fork() failed while spawning "worker process" (11: Resource temporarily unavailable)
+2017/12/01 17:17:02 [notice] 6372#0: signal process started
+2017/12/01 17:17:02 [alert] 3848#0: fork() failed while spawning "worker process" (11: Resource temporarily unavailable)
+2017/12/01 17:17:06 [notice] 4392#0: signal process started
+2017/12/01 17:17:06 [alert] 3848#0: fork() failed while spawning "worker process" (11: Resource temporarily unavailable)
+2017/12/01 17:17:26 [notice] 7948#0: signal process started
+2017/12/01 17:18:41 [emerg] 7312#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 17:18:41 [emerg] 7312#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 17:18:41 [emerg] 7312#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 17:18:41 [emerg] 7312#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 17:18:41 [emerg] 7312#0: bind() to 0.0.0.0:80 failed (112: Address already in use)
+2017/12/01 17:18:41 [emerg] 7312#0: still could not bind()
+2017/12/01 17:19:28 [error] 7812#0: *1 open() "D:/C_project/nginx/D:/C_project/nginx/xx/Makefile" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx/Makefile HTTP/1.1", host: "localhost"
+2017/12/01 17:19:30 [error] 7812#0: *1 open() "D:/C_project/nginx/D:/C_project/nginx/xx/Makefile" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx/Makefile HTTP/1.1", host: "localhost"
+2017/12/01 17:20:16 [notice] 7884#0: signal process started
+2017/12/01 17:20:16 [alert] 7812#0: recvmsg() returned invalid ancillary data level 9 or type 1
+2017/12/01 17:20:20 [error] 6220#0: *3 open() "/xx/Makefile" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx/Makefile HTTP/1.1", host: "localhost"
+2017/12/01 17:20:22 [error] 6220#0: *3 open() "/xx/Makefile" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx/Makefile HTTP/1.1", host: "localhost"
+2017/12/01 17:22:23 [notice] 4856#0: signal process started
+2017/12/01 17:22:23 [alert] 6220#0: recvmsg() returned invalid ancillary data level 9 or type 1
+2017/12/01 17:22:29 [error] 6928#0: *6 "//Makefile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /xx/Makefile/ HTTP/1.1", host: "localhost"
+2017/12/01 17:23:24 [notice] 7884#0: signal process started
+2017/12/01 17:23:24 [alert] 6928#0: recvmsg() returned invalid ancillary data level 9 or type 1
+2017/12/01 17:23:33 [error] 5608#0: *9 "/objs/objs/Makefile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /objs/Makefile/ HTTP/1.1", host: "localhost"
+2017/12/01 17:24:31 [notice] 1192#0: signal process started
+2017/12/01 17:24:31 [alert] 5608#0: recvmsg() returned invalid ancillary data level 9 or type 1
+2017/12/01 17:24:36 [error] 7500#0: *12 open() "/objs/Makefile" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /objs/Makefile HTTP/1.1", host: "localhost"
+2017/12/01 17:25:16 [notice] 6220#0: signal process started
+2017/12/01 17:25:16 [alert] 7500#0: recvmsg() returned invalid ancillary data level 9 or type 1
+2017/12/01 17:26:08 [notice] 7572#0: signal process started
+2017/12/01 17:26:08 [alert] 7020#0: recvmsg() returned invalid ancillary data level 9 or type 1
+2017/12/01 18:16:26 [alert] 4704#0: in http{} test_str=SUPERMAN
+2017/12/01 18:16:26 [alert] 4704#0: in server[name=host1]{} test_str=SUPERMAN
+2017/12/01 18:16:26 [alert] 4704#0: in location[name=/HOST1_loc1]{} test_str=loc1_BANANA
+2017/12/01 18:16:26 [alert] 4704#0: in location[name=/HOST1_loc2]{} test_str=SUPERMAN
+2017/12/01 18:16:26 [alert] 4704#0: in server[name=host2]{} test_str=CAR
+2017/12/01 18:16:26 [alert] 4704#0: in location[name=/50x.html]{} test_str=CAR
+2017/12/01 18:16:26 [alert] 4704#0: in location[name=/index]{} test_str=FOCUS
+2017/12/01 18:16:26 [alert] 4704#0: in location[name=/test]{} test_str=PLANE
+2017/12/01 18:16:26 [notice] 4704#0: using the "select" event method
+2017/12/01 18:16:26 [warn] 4704#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/01 18:16:26 [notice] 4704#0: nginx/1.13.8
+2017/12/01 18:16:26 [notice] 4704#0: built by gcc 6.4.0 (GCC) 
+2017/12/01 18:16:26 [notice] 4704#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/01 18:16:26 [notice] 6504#0: start worker processes
+2017/12/01 18:16:26 [notice] 6504#0: start worker process 6984
+2017/12/01 18:16:26 [notice] 6504#0: signal 23 (SIGIO) received from 6504
+2017/12/01 18:17:21 [error] 8152#0: *22 open() "D:/C_project/nginx/html/HOST1_loc1" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /HOST1_loc1 HTTP/1.1", host: "localhost"
+2017/12/01 18:53:20 [alert] 7632#0: in http{} test_str=SUPERMAN
+2017/12/01 18:53:20 [alert] 7632#0: in server[name=host1]{} test_str=SUPERMAN
+2017/12/01 18:53:20 [alert] 7632#0: in location[name=/HOST1_loc1]{} test_str=loc1_BANANA
+2017/12/01 18:53:20 [alert] 7632#0: in location[name=/HOST1_loc2]{} test_str=SUPERMAN
+2017/12/01 18:53:20 [alert] 7632#0: in server[name=host2]{} test_str=CAR
+2017/12/01 18:53:20 [alert] 7632#0: in location[name=/50x.html]{} test_str=CAR
+2017/12/01 18:53:20 [alert] 7632#0: in location[name=/index]{} test_str=FOCUS
+2017/12/01 18:53:20 [alert] 7632#0: in location[name=/test]{} test_str=PLANE
+2017/12/01 18:53:20 [notice] 7632#0: signal process started
+2017/12/01 18:53:20 [notice] 6504#0: signal 15 (SIGTERM) received from 7632, exiting
+2017/12/01 18:53:20 [notice] 6984#0: signal 15 (SIGTERM) received from 6504, exiting
+2017/12/01 18:53:20 [info] 6984#0: select() failed (4: Interrupted system call)
+2017/12/01 18:53:20 [notice] 6984#0: exiting
+2017/12/01 18:53:20 [notice] 6984#0: exit
+2017/12/01 18:53:20 [notice] 6504#0: signal 20 (SIGCHLD) received from 6984
+2017/12/01 18:53:20 [notice] 6504#0: worker process 6984 exited with code 0
+2017/12/01 18:53:20 [notice] 6504#0: exit
+2017/12/01 18:53:25 [alert] 7996#0: in http{} test_str=SUPERMAN
+2017/12/01 18:53:25 [alert] 7996#0: in server[name=host1]{} test_str=SUPERMAN
+2017/12/01 18:53:25 [alert] 7996#0: in location[name=/HOST1_loc1]{} test_str=loc1_BANANA
+2017/12/01 18:53:25 [alert] 7996#0: in location[name=/HOST1_loc2]{} test_str=SUPERMAN
+2017/12/01 18:53:25 [alert] 7996#0: in server[name=host2]{} test_str=CAR
+2017/12/01 18:53:25 [alert] 7996#0: in location[name=/50x.html]{} test_str=CAR
+2017/12/01 18:53:25 [alert] 7996#0: in location[name=/index]{} test_str=FOCUS
+2017/12/01 18:53:25 [alert] 7996#0: in location[name=/test]{} test_str=PLANE
+2017/12/01 18:53:25 [notice] 7996#0: signal process started
+2017/12/01 18:53:25 [error] 7996#0: open() "D:/C_project/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2017/12/01 18:53:51 [alert] 6468#0: in http{} test_str=SUPERMAN
+2017/12/01 18:53:51 [alert] 6468#0: in server[name=host1]{} test_str=SUPERMAN
+2017/12/01 18:53:51 [alert] 6468#0: in location[name=/HOST1_loc1]{} test_str=loc1_BANANA
+2017/12/01 18:53:51 [alert] 6468#0: in location[name=/HOST1_loc2]{} test_str=SUPERMAN
+2017/12/01 18:53:51 [alert] 6468#0: in server[name=host2]{} test_str=CAR
+2017/12/01 18:53:51 [alert] 6468#0: in location[name=/50x.html]{} test_str=CAR
+2017/12/01 18:53:51 [alert] 6468#0: in location[name=/index]{} test_str=FOCUS
+2017/12/01 18:53:51 [alert] 6468#0: in location[name=/test]{} test_str=PLANE
+2017/12/01 18:53:51 [notice] 6468#0: using the "select" event method
+2017/12/01 18:53:51 [warn] 6468#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/01 18:53:51 [notice] 6468#0: nginx/1.13.8
+2017/12/01 18:53:51 [notice] 6468#0: built by gcc 6.4.0 (GCC) 
+2017/12/01 18:53:51 [notice] 6468#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/01 18:53:51 [notice] 4456#0: start worker processes
+2017/12/01 18:53:51 [notice] 4456#0: start worker process 5496
+2017/12/01 18:53:51 [notice] 4456#0: signal 23 (SIGIO) received from 4456
+2017/12/01 18:58:50 [error] 5496#0: *1 open() "D:/C_project/nginx/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: host2, request: "GET /test HTTP/1.1", host: "localhost:8088"
+2017/12/01 18:58:50 [error] 5496#0: *1 open() "D:/C_project/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: host2, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8088", referrer: "http://localhost:8088/test"
+2017/12/01 18:59:26 [error] 5496#0: *1 open() "D:/C_project/nginx/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: host2, request: "GET /test HTTP/1.1", host: "localhost:8088"
+2017/12/01 18:59:26 [info] 5496#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8088
+2017/12/01 18:59:26 [info] 5496#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8088
+2017/12/01 19:00:11 [error] 5496#0: *1 open() "D:/C_project/nginx/html/index" failed (2: No such file or directory), client: 127.0.0.1, server: host2, request: "GET /index HTTP/1.1", host: "localhost:8088"
+2017/12/01 19:00:11 [info] 5496#0: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8088
+2017/12/01 19:00:11 [info] 5496#0: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8088
+2017/12/01 19:00:11 [info] 5496#0: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8088
+2017/12/01 19:01:11 [info] 5496#0: *7 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8088
+2017/12/01 19:01:11 [info] 5496#0: *8 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8088
+2017/12/06 14:07:01 [notice] 7028#0: using the "select" event method
+2017/12/06 14:07:01 [warn] 7028#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:07:01 [notice] 7028#0: nginx/1.13.8
+2017/12/06 14:07:01 [notice] 7028#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 14:07:01 [notice] 7028#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 14:07:01 [notice] 1056#0: start worker processes
+2017/12/06 14:07:01 [notice] 1056#0: start worker process 7536
+2017/12/06 14:07:01 [notice] 1056#0: signal 23 (SIGIO) received from 1056
+2017/12/06 14:07:48 [error] 7536#0: *1 open() "D:/C_project/nginx/obj/Makefile" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /Makefile HTTP/1.1", host: "localhost:8080"
+2017/12/06 14:07:48 [error] 7536#0: *1 open() "D:/C_project/nginx/obj/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/Makefile"
+2017/12/06 14:08:13 [notice] 2952#0: signal process started
+2017/12/06 14:08:13 [notice] 1056#0: signal 1 (SIGHUP) received from 2952, reconfiguring
+2017/12/06 14:08:13 [notice] 1056#0: reconfiguring
+2017/12/06 14:08:13 [notice] 1056#0: using the "select" event method
+2017/12/06 14:08:13 [warn] 1056#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:08:13 [notice] 1056#0: start worker processes
+2017/12/06 14:08:13 [notice] 1056#0: start worker process 8016
+2017/12/06 14:08:13 [alert] 7536#0: recvmsg() returned invalid ancillary data level 6 or type 6
+2017/12/06 14:08:13 [notice] 1056#0: signal 23 (SIGIO) received from 1056
+2017/12/06 14:08:13 [notice] 7536#0: signal 3 (SIGQUIT) received from 1056, shutting down
+2017/12/06 14:08:13 [info] 7536#0: select() failed (4: Interrupted system call)
+2017/12/06 14:08:13 [notice] 7536#0: gracefully shutting down
+2017/12/06 14:08:17 [info] 7536#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:08:17 [info] 7536#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:08:17 [notice] 7536#0: exiting
+2017/12/06 14:08:17 [notice] 7536#0: exit
+2017/12/06 14:08:17 [notice] 1056#0: signal 20 (SIGCHLD) received from 7536
+2017/12/06 14:08:17 [notice] 1056#0: worker process 7536 exited with code 0
+2017/12/06 14:08:42 [info] 8016#0: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:08:42 [info] 8016#0: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:08:42 [info] 8016#0: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:08:42 [info] 8016#0: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:21:06 [notice] 7100#0: signal process started
+2017/12/06 14:21:06 [notice] 1056#0: signal 1 (SIGHUP) received from 7100, reconfiguring
+2017/12/06 14:21:06 [notice] 1056#0: reconfiguring
+2017/12/06 14:21:06 [notice] 1056#0: using the "select" event method
+2017/12/06 14:21:06 [warn] 1056#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:21:06 [notice] 1056#0: start worker processes
+2017/12/06 14:21:06 [notice] 1056#0: start worker process 2396
+2017/12/06 14:21:06 [alert] 8016#0: recvmsg() returned invalid ancillary data level 6 or type 6
+2017/12/06 14:21:06 [notice] 1056#0: signal 23 (SIGIO) received from 1056
+2017/12/06 14:21:06 [notice] 8016#0: signal 3 (SIGQUIT) received from 1056, shutting down
+2017/12/06 14:21:06 [info] 8016#0: select() failed (4: Interrupted system call)
+2017/12/06 14:21:06 [notice] 8016#0: gracefully shutting down
+2017/12/06 14:21:06 [notice] 8016#0: exiting
+2017/12/06 14:21:06 [notice] 8016#0: exit
+2017/12/06 14:21:06 [notice] 1056#0: signal 20 (SIGCHLD) received from 8016
+2017/12/06 14:21:06 [notice] 1056#0: worker process 8016 exited with code 0
+2017/12/06 14:21:47 [info] 2396#0: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:21:47 [info] 2396#0: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:21:47 [info] 2396#0: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:21:47 [error] 2396#0: *9 directory index of "D:/C_project/nginx/objs/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2017/12/06 14:22:11 [error] 2396#0: *9 open() "D:/C_project/nginx/objs/ngx_module" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /ngx_module HTTP/1.1", host: "localhost:8080"
+2017/12/06 14:22:11 [info] 2396#0: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:22:11 [info] 2396#0: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:22:15 [error] 2396#0: *9 open() "D:/C_project/nginx/objs/ngx_module.c" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /ngx_module.c HTTP/1.1", host: "localhost:8080"
+2017/12/06 14:22:28 [error] 2396#0: *9 open() "D:/C_project/nginx/objs/ngx_module.c" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /ngx_module.c HTTP/1.1", host: "localhost:8080"
+2017/12/06 14:24:36 [notice] 3832#0: signal process started
+2017/12/06 14:24:36 [notice] 1056#0: signal 1 (SIGHUP) received from 3832, reconfiguring
+2017/12/06 14:24:36 [notice] 1056#0: reconfiguring
+2017/12/06 14:24:36 [notice] 1056#0: using the "select" event method
+2017/12/06 14:24:36 [warn] 1056#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:24:36 [notice] 1056#0: start worker processes
+2017/12/06 14:24:36 [notice] 1056#0: start worker process 1064
+2017/12/06 14:24:36 [alert] 2396#0: recvmsg() returned invalid ancillary data level 6 or type 6
+2017/12/06 14:24:36 [notice] 1056#0: signal 23 (SIGIO) received from 1056
+2017/12/06 14:24:36 [notice] 2396#0: signal 3 (SIGQUIT) received from 1056, shutting down
+2017/12/06 14:24:36 [info] 2396#0: select() failed (4: Interrupted system call)
+2017/12/06 14:24:36 [notice] 2396#0: gracefully shutting down
+2017/12/06 14:24:36 [notice] 2396#0: exiting
+2017/12/06 14:24:36 [notice] 2396#0: exit
+2017/12/06 14:24:36 [notice] 1056#0: signal 20 (SIGCHLD) received from 2396
+2017/12/06 14:24:36 [notice] 1056#0: worker process 2396 exited with code 0
+2017/12/06 14:25:26 [info] 1064#0: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:25:30 [notice] 3316#0: signal process started
+2017/12/06 14:25:30 [notice] 1056#0: signal 15 (SIGTERM) received from 3316, exiting
+2017/12/06 14:25:30 [notice] 1064#0: signal 15 (SIGTERM) received from 1056, exiting
+2017/12/06 14:25:30 [info] 1064#0: select() failed (4: Interrupted system call)
+2017/12/06 14:25:30 [notice] 1064#0: exiting
+2017/12/06 14:25:30 [notice] 1064#0: exit
+2017/12/06 14:25:30 [notice] 1056#0: signal 20 (SIGCHLD) received from 1064
+2017/12/06 14:25:30 [notice] 1056#0: worker process 1064 exited with code 0
+2017/12/06 14:25:30 [notice] 1056#0: exit
+2017/12/06 14:26:57 [notice] 6552#0: using the "select" event method
+2017/12/06 14:26:57 [warn] 6552#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:26:57 [notice] 6552#0: nginx/1.13.8
+2017/12/06 14:26:57 [notice] 6552#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 14:26:57 [notice] 6552#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 14:27:14 [notice] 6552#0: signal 15 (SIGTERM) received from 6980, exiting
+2017/12/06 14:27:14 [info] 6552#0: select() failed (4: Interrupted system call)
+2017/12/06 14:27:14 [notice] 6552#0: exit
+2017/12/06 14:31:59 [notice] 3168#0: using the "select" event method
+2017/12/06 14:31:59 [warn] 3168#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:31:59 [notice] 3168#0: nginx/1.13.8
+2017/12/06 14:31:59 [notice] 3168#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 14:31:59 [notice] 3168#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 14:32:03 [emerg] 7460#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2017/12/06 14:32:03 [notice] 7460#0: try again to bind() after 500ms
+2017/12/06 14:32:03 [emerg] 7460#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2017/12/06 14:32:03 [notice] 7460#0: try again to bind() after 500ms
+2017/12/06 14:32:03 [emerg] 7460#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2017/12/06 14:32:03 [notice] 7460#0: try again to bind() after 500ms
+2017/12/06 14:32:03 [emerg] 7460#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2017/12/06 14:32:03 [notice] 7460#0: try again to bind() after 500ms
+2017/12/06 14:32:03 [emerg] 7460#0: bind() to 0.0.0.0:8080 failed (112: Address already in use)
+2017/12/06 14:32:03 [notice] 7460#0: try again to bind() after 500ms
+2017/12/06 14:32:03 [emerg] 7460#0: still could not bind()
+2017/12/06 14:32:57 [info] 3168#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:32:57 [info] 3168#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 14:34:02 [notice] 2004#0: using the "select" event method
+2017/12/06 14:34:02 [warn] 2004#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:34:02 [notice] 2004#0: nginx/1.13.8
+2017/12/06 14:34:02 [notice] 2004#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 14:34:02 [notice] 2004#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 14:36:28 [notice] 8080#0: using the "select" event method
+2017/12/06 14:36:28 [warn] 8080#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:36:28 [notice] 8080#0: nginx/1.13.8
+2017/12/06 14:36:28 [notice] 8080#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 14:36:28 [notice] 8080#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 14:39:09 [notice] 6808#0: using the "select" event method
+2017/12/06 14:39:09 [warn] 6808#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 14:39:09 [notice] 6808#0: nginx/1.13.8
+2017/12/06 14:39:09 [notice] 6808#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 14:39:09 [notice] 6808#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 15:06:28 [info] 6808#0: *2 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:06:28 [info] 6808#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:10:49 [info] 6808#0: *5 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:10:49 [info] 6808#0: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:29:37 [info] 6808#0: *8 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:29:37 [info] 6808#0: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:30:29 [notice] 7232#0: using the "select" event method
+2017/12/06 15:30:29 [warn] 7232#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 15:30:29 [notice] 7232#0: nginx/1.13.8
+2017/12/06 15:30:29 [notice] 7232#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 15:30:29 [notice] 7232#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 15:31:51 [info] 7232#0: *2 client timed out (116: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:31:51 [info] 7232#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:31:52 [error] 7232#0: *4 open() "D:/C_project/nginx/objs/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/ngx_modules.c"
+2017/12/06 15:32:15 [info] 7232#0: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:33:10 [emerg] 3844#0: invalid number of arguments in "default_type" directive in D:/C_project/nginx/conf/nginx.conf:17
+2017/12/06 15:33:31 [emerg] 6320#0: invalid number of arguments in "default_type" directive in D:/C_project/nginx/conf/nginx.conf:17
+2017/12/06 15:34:03 [notice] 7320#0: using the "select" event method
+2017/12/06 15:34:03 [warn] 7320#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 15:34:03 [notice] 7320#0: nginx/1.13.8
+2017/12/06 15:34:03 [notice] 7320#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 15:34:03 [notice] 7320#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 15:34:28 [info] 7320#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:34:28 [info] 7320#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 15:35:08 [error] 7320#0: *1 open() "D:/C_project/nginx/objs/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/ngx_modules.c"
+2017/12/06 15:35:18 [info] 7320#0: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/12/06 16:54:05 [notice] 8092#0: using the "select" event method
+2017/12/06 16:54:05 [warn] 8092#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/06 16:54:05 [notice] 8092#0: nginx/1.13.8
+2017/12/06 16:54:05 [notice] 8092#0: built by gcc 6.4.0 (GCC) 
+2017/12/06 16:54:05 [notice] 8092#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/06 16:54:12 [notice] 8092#0: signal 15 (SIGTERM) received from 7184, exiting
+2017/12/06 16:54:12 [info] 8092#0: select() failed (4: Interrupted system call)
+2017/12/06 16:54:12 [notice] 8092#0: exit
+2017/12/07 11:21:32 [notice] 5580#0: using the "select" event method
+2017/12/07 11:21:32 [warn] 5580#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/07 11:21:32 [notice] 5580#0: nginx/1.13.8
+2017/12/07 11:21:32 [notice] 5580#0: built by gcc 6.4.0 (GCC) 
+2017/12/07 11:21:32 [notice] 5580#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/07 11:21:37 [notice] 5580#0: signal 15 (SIGTERM) received from 3608, exiting
+2017/12/07 11:21:37 [info] 5580#0: select() failed (4: Interrupted system call)
+2017/12/07 11:21:37 [notice] 5580#0: exit
+2017/12/07 11:21:42 [notice] 4756#0: using the "select" event method
+2017/12/07 11:21:42 [warn] 4756#0: 1024 worker_connections exceed open file resource limit: 256
+2017/12/07 11:21:42 [notice] 4756#0: nginx/1.13.8
+2017/12/07 11:21:42 [notice] 4756#0: built by gcc 6.4.0 (GCC) 
+2017/12/07 11:21:42 [notice] 4756#0: getrlimit(RLIMIT_NOFILE): 256:3200
+2017/12/07 11:21:44 [notice] 4756#0: signal 15 (SIGTERM) received from 4800, exiting
+2017/12/07 11:21:44 [info] 4756#0: select() failed (4: Interrupted system call)
